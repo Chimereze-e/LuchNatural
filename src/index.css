@@ -75,3 +75,15 @@
 .border-green {
   border-color: #28a745 !important;
 }
+
+/* Ensure footer lists are visible */
+footer ul.list-unstyled {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+footer ul.list-unstyled li {
+  display: block !important;
+  margin-bottom: 8px !important;
+}

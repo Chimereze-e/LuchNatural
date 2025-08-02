@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className="bg-dark text-light py-5 mt-5">
+    <footer className="bg-dark text-light py-5 mt-2">
       <Container>
         <Row>
           <Col md={4} className="mb-4">
@@ -17,58 +17,60 @@ function Footer() {
           
           <Col md={2} className="mb-4">
             <h6 className="mb-3">Quick Links</h6>
-            <ul className="list-unstyled">
-              <li><Link to="/" className="text-muted text-decoration-none">Home</Link></li>
-              <li><Link to="/products" className="text-muted text-decoration-none">Products</Link></li>
-              <li><Link to="/about" className="text-muted text-decoration-none">About</Link></li>
-              <li><Link to="/contact" className="text-muted text-decoration-none">Contact</Link></li>
+            <ul style={{ color: 'white', listStyle: 'none', margin: 0, padding: 0 }}>
+              <li style={{ marginBottom: '8px' }}><Link to="/" style={{ color: 'white' }}>Home</Link></li>
+              <li style={{ marginBottom: '8px' }}><Link to="/products" style={{ color: 'white' }}>Products</Link></li>
+              <li style={{ marginBottom: '8px' }}><Link to="/about" style={{ color: 'white' }}>About</Link></li>
+              <li style={{ marginBottom: '8px' }}><Link to="/contact" style={{ color: 'white' }}>Contact</Link></li>
             </ul>
           </Col>
           
           <Col md={3} className="mb-4">
             <h6 className="mb-3">Categories</h6>
-            <ul className="list-unstyled">
-              <li><Link to="/products?category=cleansers" className="text-muted text-decoration-none">Cleansers</Link></li>
-              <li><Link to="/products?category=moisturizers" className="text-muted text-decoration-none">Moisturizers</Link></li>
-              <li><Link to="/products?category=serums" className="text-muted text-decoration-none">Serums</Link></li>
-              <li><Link to="/products?category=treatments" className="text-muted text-decoration-none">Treatments</Link></li>
+            <ul style={{ color: 'white', listStyle: 'none', margin: 0, padding: 0 }}>
+              <li style={{ marginBottom: '8px' }}><Link to="/products?category=cleansers" style={{ color: 'white' }}>Cleansers</Link></li>
+              <li style={{ marginBottom: '8px' }}><Link to="/products?category=moisturizers" style={{ color: 'white' }}>Moisturizers</Link></li>
+              <li style={{ marginBottom: '8px' }}><Link to="/products?category=serums" style={{ color: 'white' }}>Serums</Link></li>
+              <li style={{ marginBottom: '8px' }}><Link to="/products?category=treatments" style={{ color: 'white' }}>Treatments</Link></li>
             </ul>
           </Col>
           
           <Col md={3} className="mb-4">
             <h6 className="mb-3">Connect With Us</h6>
-            <div className="d-flex gap-3 mb-3">
-              <a href="#" className="text-muted fs-4">
-                <i className="ri-facebook-fill"></i>
-              </a>
-              <a href="#" className="text-muted fs-4">
-                <i className="ri-instagram-fill"></i>
-              </a>
-              <a href="#" className="text-muted fs-4">
-                <i className="ri-twitter-fill"></i>
-              </a>
-              <a href="#" className="text-muted fs-4">
-                <i className="ri-youtube-fill"></i>
-              </a>
+            <div style={{ color: 'white', marginBottom: '15px' }}>
+              <div style={{ display: 'flex', gap: '15px', marginBottom: '15px' }}>
+                <a href="#" style={{ color: 'white', fontSize: '20px' }}>
+                  <i className="ri-facebook-fill"></i>
+                </a>
+                <a href="#" style={{ color: 'white', fontSize: '20px' }}>
+                  <i className="ri-instagram-fill"></i>
+                </a>
+                <a href="#" style={{ color: 'white', fontSize: '20px' }}>
+                  <i className="ri-twitter-fill"></i>
+                </a>
+                <a href="#" style={{ color: 'white', fontSize: '20px' }}>
+                  <i className="ri-youtube-fill"></i>
+                </a>
+              </div>
+              <p style={{ color: 'white', margin: 0 }}>
+                <i className="ri-mail-line" style={{ marginRight: '8px' }}></i>
+                info@luchnatural.com
+              </p>
             </div>
-            <p className="text-muted mb-0">
-              <i className="ri-mail-line me-2"></i>
-              info@luchnatural.com
-            </p>
           </Col>
         </Row>
         
-        <hr className="my-4" />
+        <hr className="my-4" style={{ borderColor: '#666' }} />
         
         <Row className="align-items-center">
           <Col md={6}>
-            <p className="text-muted mb-0">
+            <p style={{ color: '#ccc', margin: 0 }}>
               © 2024 LuchNatural. All rights reserved.
             </p>
           </Col>
-          <Col md={6} className="text-md-end">
-            <Link to="/privacy" className="text-muted text-decoration-none me-3">Privacy Policy</Link>
-            <Link to="/terms" className="text-muted text-decoration-none">Terms of Service</Link>
+          <Col md={6} style={{ textAlign: 'right' }}>
+            <Link to="/privacy" style={{ color: '#ccc', textDecoration: 'none', marginRight: '15px' }}>Privacy Policy</Link>
+            <Link to="/terms" style={{ color: '#ccc', textDecoration: 'none' }}>Terms of Service</Link>
           </Col>
         </Row>
       </Container>

@@ -91,7 +91,7 @@ export default function Home() {
           <Row>
             <Col md={4} className="mb-4">
               <div className="text-center">
-                <div className="bg-white rounded-circle d-inline-flex align-items-center justify-center mb-3" style={{width: '80px', height: '80px'}}>
+                <div className="bg-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style={{width: '80px', height: '80px'}}>
                   <i className="ri-leaf-line fs-1 text-success"></i>
                 </div>
                 <h4>100% Natural</h4>
@@ -103,7 +103,7 @@ export default function Home() {
 
             <Col md={4} className="mb-4">
               <div className="text-center">
-                <div className="bg-white rounded-circle d-inline-flex align-items-center justify-center mb-3" style={{width: '80px', height: '80px'}}>
+                <div className="bg-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style={{width: '80px', height: '80px'}}>
                   <i className="ri-shield-check-line fs-1 text-primary"></i>
                 </div>
                 <h4>Dermatologist Tested</h4>
@@ -115,7 +115,7 @@ export default function Home() {
 
             <Col md={4} className="mb-4">
               <div className="text-center">
-                <div className="bg-white rounded-circle d-inline-flex align-items-center justify-center mb-3" style={{width: '80px', height: '80px'}}>
+                <div className="bg-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style={{width: '80px', height: '80px'}}>
                   <i className="ri-heart-line fs-1 text-danger"></i>
                 </div>
                 <h4>Cruelty Free</h4>
