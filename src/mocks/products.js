@@ -1,0 +1,127 @@
+
+export const products = [
+  {
+    id: 1,
+    name: "Gentle Cleansing Oil",
+    category: "cleansers",
+    price: 28.99,
+    originalPrice: 32.99,
+    discount: 12,
+    description: "A luxurious cleansing oil that gently removes makeup and impurities while nourishing your skin with natural plant oils. Perfect for all skin types, including sensitive skin.",
+    image: "https://readdy.ai/api/search-image?query=natural%20gentle%20cleansing%20oil%20bottle%20with%20herbs%20and%20botanical%20ingredients%2C%20minimalist%20white%20background%2C%20professional%20product%20photography%2C%20soft%20lighting&width=300&height=300&seq=1&orientation=squarish",
+    rating: 4.8,
+    reviews: 127,
+    isNew: false,
+    ingredients: ["Jojoba Oil", "Rosehip Oil", "Vitamin E", "Chamomile Extract"],
+    inStock: true,
+    stockCount: 45
+  },
+  {
+    id: 2,
+    name: "Hydrating Rose Serum",
+    category: "serums",
+    price: 45.99,
+    description: "Intensive hydrating serum infused with organic rose water and hyaluronic acid. Provides deep moisture and helps reduce signs of aging for a youthful, radiant complexion.",
+    image: "https://readdy.ai/api/search-image?query=elegant%20rose%20serum%20bottle%20with%20dropper%2C%20pink%20roses%20and%20natural%20ingredients%2C%20clean%20white%20background%2C%20luxury%20skincare%20photography&width=300&height=300&seq=2&orientation=squarish",
+    rating: 4.9,
+    reviews: 89,
+    isNew: true,
+    ingredients: ["Rose Water", "Hyaluronic Acid", "Vitamin C", "Rosehip Extract"],
+    inStock: true,
+    stockCount: 32
+  },
+  {
+    id: 3,
+    name: "Nourishing Night Cream",
+    category: "moisturizers",
+    price: 39.99,
+    originalPrice: 49.99,
+    discount: 20,
+    description: "Rich night cream formulated with organic shea butter and peptides to repair and rejuvenate skin overnight. Wake up to softer, smoother, more youthful-looking skin.",
+    image: "https://readdy.ai/api/search-image?query=luxury%20night%20cream%20jar%20with%20natural%20ingredients%20like%20shea%20butter%20and%20herbs%2C%20elegant%20packaging%2C%20soft%20white%20background%2C%20premium%20skincare%20photography&width=300&height=300&seq=3&orientation=squarish",
+    rating: 4.7,
+    reviews: 156,
+    isNew: false,
+    ingredients: ["Shea Butter", "Peptides", "Retinol", "Lavender Oil"],
+    inStock: true,
+    stockCount: 28
+  },
+  {
+    id: 4,
+    name: "Vitamin C Brightening Serum",
+    category: "serums",
+    price: 52.99,
+    description: "Potent vitamin C serum that brightens skin tone, reduces dark spots, and provides antioxidant protection. Formulated with stabilized vitamin C for maximum efficacy.",
+    image: "https://readdy.ai/api/search-image?query=vitamin%20C%20serum%20bottle%20with%20citrus%20fruits%20and%20natural%20vitamin%20C%20ingredients%2C%20bright%20clean%20background%2C%20professional%20skincare%20photography&width=300&height=300&seq=4&orientation=squarish",
+    rating: 4.6,
+    reviews: 203,
+    isNew: true,
+    ingredients: ["Vitamin C", "Ferulic Acid", "Vitamin E", "Niacinamide"],
+    inStock: true,
+    stockCount: 19
+  },
+  {
+    id: 5,
+    name: "Purifying Clay Mask",
+    category: "treatments",
+    price: 24.99,
+    description: "Deep-cleansing clay mask enriched with bentonite clay and tea tree oil. Draws out impurities, unclogs pores, and leaves skin feeling refreshed and balanced.",
+    image: "https://readdy.ai/api/search-image?query=natural%20clay%20mask%20jar%20with%20green%20clay%20and%20herbs%2C%20spa-like%20setting%20with%20natural%20ingredients%2C%20clean%20white%20background%2C%20skincare%20product%20photography&width=300&height=300&seq=5&orientation=squarish",
+    rating: 4.5,
+    reviews: 98,
+    isNew: false,
+    ingredients: ["Bentonite Clay", "Tea Tree Oil", "Kaolin Clay", "Aloe Vera"],
+    inStock: true,
+    stockCount: 67
+  },
+  {
+    id: 6,
+    name: "Daily Moisturizer SPF 30",
+    category: "moisturizers",
+    price: 34.99,
+    description: "Lightweight daily moisturizer with broad-spectrum SPF 30 protection. Hydrates skin while providing essential sun protection with natural zinc oxide.",
+    image: "https://readdy.ai/api/search-image?query=daily%20moisturizer%20with%20SPF%20protection%2C%20sunscreen%20bottle%20with%20natural%20sun%20protection%20ingredients%2C%20clean%20white%20background%2C%20skincare%20photography&width=300&height=300&seq=6&orientation=squarish",
+    rating: 4.4,
+    reviews: 134,
+    isNew: false,
+    ingredients: ["Zinc Oxide", "Aloe Vera", "Coconut Oil", "Vitamin E"],
+    inStock: true,
+    stockCount: 41
+  },
+  {
+    id: 7,
+    name: "Exfoliating Sugar Scrub",
+    category: "treatments",
+    price: 19.99,
+    description: "Gentle exfoliating scrub made with organic sugar and nourishing oils. Removes dead skin cells and reveals smooth, glowing skin underneath.",
+    image: "https://readdy.ai/api/search-image?query=natural%20sugar%20scrub%20jar%20with%20brown%20sugar%20crystals%20and%20essential%20oils%2C%20spa%20ingredients%2C%20clean%20white%20background%2C%20organic%20skincare%20photography&width=300&height=300&seq=7&orientation=squarish",
+    rating: 4.3,
+    reviews: 87,
+    isNew: false,
+    ingredients: ["Organic Sugar", "Coconut Oil", "Sweet Almond Oil", "Vanilla Extract"],
+    inStock: true,
+    stockCount: 53
+  },
+  {
+    id: 8,
+    name: "Anti-Aging Eye Cream",
+    category: "treatments",
+    price: 42.99,
+    description: "Specialized eye cream targeting fine lines, dark circles, and puffiness. Formulated with caffeine, peptides, and botanical extracts for youthful-looking eyes.",
+    image: "https://readdy.ai/api/search-image?query=luxury%20eye%20cream%20tube%20with%20anti-aging%20ingredients%2C%20delicate%20packaging%2C%20botanical%20extracts%2C%20clean%20white%20background%2C%20premium%20skincare%20photography&width=300&height=300&seq=8&orientation=squarish",
+    rating: 4.7,
+    reviews: 112,
+    isNew: true,
+    ingredients: ["Caffeine", "Peptides", "Cucumber Extract", "Hyaluronic Acid"],
+    inStock: true,
+    stockCount: 25
+  }
+];
+
+export const categories = [
+  { id: "all", name: "All Products", count: 8 },
+  { id: "cleansers", name: "Cleansers", count: 1 },
+  { id: "serums", name: "Serums", count: 2 },
+  { id: "moisturizers", name: "Moisturizers", count: 2 },
+  { id: "treatments", name: "Treatments", count: 3 }
+];

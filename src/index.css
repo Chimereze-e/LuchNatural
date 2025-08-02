@@ -1,0 +1,77 @@
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for LuchNatural */
+.brand-font {
+  font-family: "Pacifico", serif;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #f0f8f0 0%, #e8f5e8 100%);
+  min-height: 500px;
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.btn-natural {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.btn-natural:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+  color: white;
+}
+
+.text-natural {
+  color: #28a745;
+}
+
+.bg-natural-light {
+  background-color: #f0f8f0;
+}
+
+.navbar-brand {
+  color: #28a745 !important;
+}
+
+.nav-link.active {
+  color: #28a745 !important;
+}
+
+.btn-outline-dark {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.btn-outline-dark:hover {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.bg-primary-green {
+  background-color: #28a745 !important;
+}
+
+.text-primary-green {
+  color: #28a745 !important;
+}
+
+.border-green {
+  border-color: #28a745 !important;
+}
